@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightgrey;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            width:100%;
+            padding:70px;
+            box-shadow: 0px 0px 10px lightgrey;
+         }
+         h1{
+            color:blue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+            font-weight: bolder;
+            font-style: normal;
+         }
+         p{
+            color:rgb(28,30,33);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            font-weight: 100;
+            font-style: normal;
+           
+         
+          
+         }
+        .leftpart{
+            flex-direction: column;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .rightpart{
+            flex-direction: column;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+        .items{
+           
+            padding:10px ;
+            border-radius: 10px;
+            font-size: medium;
+            font-weight: 100;
+        }
+        .name{
+            border-radius: 5px;
+            padding:50px 50px;
+            margin:25px 25px;
+            background-color: white;
+            box-shadow:  0px 0px 30px grey;
+          
+        }
+        .btn{
+            background-color:green;
+            color:white;
+            border-radius: 5px;
+            padding:10px;
+            width:100%;
+         
+          
+        }
+        a{
+            text-decoration: none;
+            color:blue;
+            padding:10px;
+           
+        }
+        .btn1{
+            background-color: blue;
+            color:white;
+            width:100%;
+            padding:10px;
+          
+          
+        }
+        .box{
+            padding:10px 50px;
+          
+           
+           
+           
+        }
+        label{
+            padding:20px 20px;
+        }
+        
+       
+    </style>
+
+</head>
+<body>
+    <div class="leftpart">
+        <div>
+            <h1>facebook</h1>
+            <p>Connect with friends and the world<br>
+                around you on Facebook </p>
+        </div>
+    </div>
+    <div class="rightpart">
+        <form class="name">
+            <div class="items">
+            <label  for="email or phonenumber">
+                <input  class="box" type="text" for="email or phonenumber" placeholder="email or phonenumber">
+            </label>
+            </div>
+        <div class="items">
+            <label for="password">
+                <input  class="box"type="password" for="password" placeholder="password">
+            </label>
+        </div> 
+        <div class="items">
+            <button class="btn1">Login</button>
+        </div>
+        <div class="items">
+        <a href="">Forgot password?</a>  <hr>
+        </div>
+        <div class="items">
+            <button class="btn">Create new account</button>
+        </div> 
+        </form>
+    </div>
+ <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/66acfe5f32dca6db2cb94f97/1i49s39ed';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->   
+</body>
+</html>
